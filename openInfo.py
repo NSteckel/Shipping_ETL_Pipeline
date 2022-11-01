@@ -2,6 +2,9 @@ import pandas as pd
 import glob
 import os
 import logging
+
+// This file is general information about shipments (destination, origin, duration, container type, etc.)
+
 logging.basicConfig(filename="Project1_Data/silver_layer/header/newfile.log",
                     format='%(asctime)s %(message)s',
                     filemode='w')
