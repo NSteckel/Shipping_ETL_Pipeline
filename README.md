@@ -23,3 +23,5 @@ There are 5 python files that read the data in and clean it. Each file is specif
 3. openInfo_container.py: information about the container. (Size, seal type, number of units, etc.)
 4. openInfo_descc.py: information about the container (container number, cargo description, etc.)
 5. openInfo_hazmatclass.py: information about the classification of the material in a container (class number, identifier, etc.)
+
+The 'DE_Shipping_Commands.sql' file is a series of PostgreSQL commands querying the now cleaned data.
