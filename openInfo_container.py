@@ -2,6 +2,8 @@ import pandas as pd
 import glob
 import os
 import logging
+
+// information about the container. Size, seal type, number of units, etc.
 logging.basicConfig(filename="Project1_Data/silver_layer/container/newfile.log",
                     format='%(asctime)s %(message)s',
                     filemode='w')
