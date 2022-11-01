@@ -1,5 +1,8 @@
 import pandas as pd
 import logging
+
+// Information about the hazardous material in specific shipments. Material type, flashpoint, etc.
+
 logging.basicConfig(filename="Project1_Data/silver_layer/hazmat/newfile.log",
                     format='%(asctime)s %(message)s',
                     filemode='w')
