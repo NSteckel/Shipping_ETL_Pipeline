@@ -1,5 +1,8 @@
 import pandas as pd
 import logging
+
+// information about the classification of the material in a container (class number, identifier, etc.)
+
 logging.basicConfig(filename="Project1_Data/silver_layer/hazmatclass/newfile.log",
                     format='%(asctime)s %(message)s',
                     filemode='w')
