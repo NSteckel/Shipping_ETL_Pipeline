@@ -1,6 +1,6 @@
 -- Run in pgAdmin, DE_Project_One database
 
--- Number of shipments between two specified ports
+-- Find the number of shipments between two specified ports
 -- select * from specific_route;
 select count(*) from generalhead where new_foreign_port_lading like 
 '%Casablanca%' and new_port_unlading like '%Charleston%';
@@ -8,7 +8,6 @@ select count(*) from generalhead where new_foreign_port_lading like
 
 -- get the average number of units per average  
 -- sized container (by separated measurements)
-
 select avg(piece_count)::numeric(10,0) as avg_number_of_unit, 
 avg(container_height)::numeric(10,0) as avg_container_height,
 avg(container_length)::numeric(10,0) as avg_container_length,
